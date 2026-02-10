@@ -1,0 +1,128 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-01-19T14:02:06Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.26"
+  },
+  "name": "Isochronous Sampling-0.1",
+  "dataLicense": "CC0-1.0",
+  "hasExtractedLicensingInfos": [
+    {
+      "name": "Solderpad Hardware License v2.0",
+      "licenseId": "LicenseRef-dc50b137-9d7b-4c4e-bd6e-57162aa3b7a8",
+      "extractedText": "Solderpad Hardware Licence v2.0\n"
+    }
+  ],
+  "documentNamespace": "https://nxp.com/spdx/1607f530-d8ad-481a-9f71-3c76fecbc72e",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-1607f530-d8ad-481a-9f71-3c76fecbc72e",
+      "name": "Isochronous Sampling",
+      "versionInfo": "0.1",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-08f6632a-65b7-41a8-b9cb-28b5c8a23962",
+      "name": "fullverif_gadgets",
+      "versionInfo": "227f312",
+      "licenseConcluded": "LicenseRef-dc50b137-9d7b-4c4e-bd6e-57162aa3b7a8",
+      "licenseDeclared": "LicenseRef-dc50b137-9d7b-4c4e-bd6e-57162aa3b7a8",
+      "homepage": "https://github.com/cassiersg/fullverif/",
+      "downloadLocation": "https://github.com/cassiersg/fullverif/",
+      "originator": "Organization: fullVerif",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "comment": "Actual originator is the fullVerif tool."
+    },
+    {
+      "SPDXID": "SPDXRef-package-7cf02055-185c-4be0-afcc-8ae4ab1d382a",
+      "name": "Masked-SNTRUP",
+      "versionInfo": "ad4d6f4",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "homepage": "https://github.com/AdrianMarotzke/Masked-SNTRUP",
+      "downloadLocation": "https://github.com/AdrianMarotzke/Masked-SNTRUP",
+      "originator": "Person: Adrian Marotzke",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "comment": "Actual originator are Adrian Marotzke, Georg Land and Jan Richter-Brockmann"
+    },
+    {
+      "SPDXID": "SPDXRef-package-1b3d176e-bb21-496e-993d-15544d186bd4",
+      "name": "Ring Buffer",
+      "versionInfo": "1.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "homepage": "https://vhdlwhiz.com/ring-buffer-fifo/",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Person: Jonas Julian Jensen",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "comment": "Origin is Jonas Julian Jensen from https://vhdlwhiz.com/product/vhdl-ring-buffer-fifo-in-block-ram/"
+    },
+    {
+      "SPDXID": "SPDXRef-package-de5a7ffe-e67d-44cd-b208-91a5113c2d17",
+      "name": "YosysHQ/yosys",
+      "versionInfo": "yosys-0.5",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "homepage": "http://www.clifford.at/yosys/",
+      "downloadLocation": "https://github.com/YosysHQ/yosys/tree/yosys-0.5",
+      "originator": "Organization: yosyshq",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "34223f16-ebfe-4a23-80ea-3bb4fbfa3900",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/YosysHQ/yosys@yosys-0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-1607f530-d8ad-481a-9f71-3c76fecbc72e"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-1607f530-d8ad-481a-9f71-3c76fecbc72e",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-08f6632a-65b7-41a8-b9cb-28b5c8a23962"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-1607f530-d8ad-481a-9f71-3c76fecbc72e",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-1b3d176e-bb21-496e-993d-15544d186bd4"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-1607f530-d8ad-481a-9f71-3c76fecbc72e",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-7cf02055-185c-4be0-afcc-8ae4ab1d382a"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-1607f530-d8ad-481a-9f71-3c76fecbc72e",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-de5a7ffe-e67d-44cd-b208-91a5113c2d17"
+    }
+  ]
+}
